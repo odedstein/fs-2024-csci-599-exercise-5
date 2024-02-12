@@ -196,6 +196,16 @@ with smooth shading, the surface appears infinitely smooth.
 In a shader or a renderer, the surface can be subdivided locally to just the
 right resolution neded for display.
 
+All of these rules are still linear:
+Every green and red vertex position is a linear combination of old vertex
+positions.
+We can still describe the position of the subdivided vertices using
+a sparse matrix $S$:
+
+$$
+V_1 = S V_0 \; .
+$$
+
 
 ## Tasks
 
