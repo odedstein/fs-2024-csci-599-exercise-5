@@ -143,7 +143,8 @@ This is important:
 If we never move the old vertices our surface would be merely upsampled - lots
 of triangles, but still jagged and nonsmooth.
 We move interior red vertices (red vertices that are _not_ on the boundary)
-to a weighted sum of the vertex and its red neighbors: 
+to a weighted sum of the vertex and its red neighbors, where $n$ is the number
+of vertex neighbors: 
 
 ![](images/old-verts-interior.png)
 
