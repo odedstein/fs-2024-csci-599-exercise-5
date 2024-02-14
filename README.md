@@ -1,4 +1,4 @@
-# Geometry Processing Smoothing
+# Geometry Processing Subdivision
 
 > **To get started:** Clone (**do not fork publicly**) this repository
 > 
